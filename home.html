@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Home</title>
+        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <style>
+            .header{
+                display: grid;
+                grid-template-columns: 10fr 1fr 1fr 1fr 1fr;
+                background-color: black;
+            }
+            .top{
+               color: whitesmoke;
+               padding-left: 75px;
+            }
+            .btn{
+                border: none;
+                background-color: black;
+            }
+            
+            .btn:hover{
+                background-color: rgb(235, 231, 225);
+                color: black;
+            }
+            a:hover{
+                color: orange;
+            }
+            .content{
+                text-align: center;
+                margin-top: 50px;
+            }
+            main{
+                background-image: url("room.jpg");
+                background-repeat: no-repeat;
+                background-size:cover;
+            }
+            article{
+                text-align: center;
+                background-color: black;
+                color: white;
+                height: 250px;
+            }
+            .section{
+               display: grid;
+                grid-template-columns: 1fr 1fr;
+                height:250px;
+            }
+            aside img{
+                width: 675px;
+                height: 250px;
+            }
+            .location,.food,.fit{
+                text-align: center;
+                padding: 15px;
+                height: 220px;
+            }
+            .food{
+                background-color: rgb(199, 172, 123);
+            }
+            .features{
+                padding: -50px;
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+             
+            }
+            footer{
+                text-align: center;
+                background-color: black;
+                color: white;
+                padding: 5px;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <main>
+        <div class="header">
+            <H1 class="top">WYN</H1>
+            
+            <button class="btn"><a href="home.html" style="text-decoration:none; color: whitesmoke;">Home</a></button>
+            <button class="btn"><a href="aboutus.html" style="text-decoration:none; color: whitesmoke;">About</a></button>
+            <button class="btn"><a href="contact.html" style="text-decoration:none; color: whitesmoke;">Contact</a></button>
+        </div> 
+            <div class="content">
+            <h1><span style="color: orange;">Enjoy</span> your Stay</h1>
+            <p style="color:whitesmoke">Lorem Ipsum is simply dummy text of the printing and typesetting industry. try's since the 1500s, when an unknown printer took a galley of type and sc</p>
+          
+            <button style=" background-color: black; padding-left: 25px; padding-right: 25px; padding-top: 15px; padding-bottom: 15px;"><a href="#" style="text-decoration: none; color: whitesmoke;">About our hotel</a></button>
+            <br>
+            <br>
+        </div>
+    </main>
+    <div class="section">
+        <aside>
+            <img src="./hotel.jpg">
+        </aside>
+        <article>
+            <h3 style="text-align: center;"><span style="color: orange;">The History of our Hotel</span></h3>
+            <p> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of</p>
+            <button style="padding-left: 25px; padding-right: 25px; padding-top: 15px; padding-bottom: 15px;"><a href="#" style="text-decoration: none; color: black">Read more</a></button>
+        </article>
+    </div>
+    <div class="features">
+        <div class="location">
+            <i class="fa fa-map-marker" style="font-size:48px;color:blue"></i>
+            <h3>Great location</h3>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap in</p>
+        </div>
+            <div class="food">
+                <img src="./food.png" width="45px" height="45px">
+                <h3>Free Meals</h3>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap in</p>
+            </div>
+            <div class="fit">
+                <img src="./fitness.jpg" width="45px" height="30px">
+                <h3>Fitness Room</h3>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap in</p>
+            </div>
+        </div>
+        
+      <footer>
+        <p>All rights reserved &copy; Hotel Wyvern</p>
+    </footer>
+        </body>
+
+</html>

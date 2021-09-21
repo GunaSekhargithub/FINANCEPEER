@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact Us</title>
+        <style>
+            .header{
+                display: grid;
+                grid-template-columns: 10fr 1fr 1fr 1fr;
+                background-color: black;
+            }
+            .top{
+                color: white;
+                margin-left: 25px;
+            }
+            .btn{
+                border: none;
+                background-color: black;
+            }
+            .btn:hover{
+                background-color: rgb(235, 231, 225);
+                color: black;
+            }
+            form{
+                
+                margin-left: 100px;
+            }
+            button{
+                padding-right: 20px;
+                padding-left: 20px;
+                margin-left: 600px;
+                margin-top: 50px;
+            }
+        </style>
+    </head>
+    <body>
+        <main>
+            <div class="header">
+                <H1 class="top">WYN</H1>
+                
+                <button class="btn"><a href="home.html" style="text-decoration:none; color: whitesmoke;">Home</a></button>
+                <button class="btn"><a href="aboutus.html" style="text-decoration:none; color: whitesmoke;">About</a></button>
+                <button class="btn"><a href="contact.html" style="text-decoration:none; color: whitesmoke;">Contact</a></button>
+            </div> 
+        </main>
+        <form>
+            <p style="font-weight: bolder; font-size: 35px;"><span style="color: orange;">Contact</span> Us</p>
+            <p>Please fill out the form to contact us</p>
+            <label for="name">Name</label><br>
+            <input type="text" style="padding-left:1000px ;"><br>
+            Email
+            <br>
+            <input type="email" style="padding-left: 1000px;">
+            <br>
+            Message<br>
+            <input type="text" style="padding-left: 1000px; padding-bottom: 250px;"><br>
+            <button>Submit</button>
+        </form>
+    </body>
+</html>

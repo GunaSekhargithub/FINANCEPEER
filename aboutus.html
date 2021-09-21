@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>About Us</title>
+        <style>
+            .header{
+                display: grid;
+                grid-template-columns: 10fr 1fr 1fr 1fr;
+                background-color: black;
+            }
+            .top{
+                color: white;
+                margin-left: 25px;
+            }
+            .btn{
+                border: none;
+                background-color: black;
+            }
+            .btn:hover{
+                background-color: rgb(235, 231, 225);
+                color: black;
+            }
+            aside img{
+                border-radius: 55%;
+                height: 250px;
+                margin-left: 100px;
+                margin-right: 150px;
+            }
+            .btn a:visited{
+                color: orange;
+            }
+            .about{
+                display: grid;
+                grid-template-columns: 12fr 1fr;
+                padding-top: 25px;
+                padding-left: 50px;
+                padding-bottom: 25px;
+                background-color: rgb(235, 231, 225);
+            }
+            .sample{
+                display: grid;
+                grid-template-columns: 1fr 5fr;
+                margin-left: 150px;
+                margin-top: 25px;
+                margin-right: 150px;
+                background-color: orange;
+                border-radius: 15px;
+                padding: 10px;
+            }
+            footer{
+                text-align: center;
+                background-color: black;
+                color: white;
+                margin-top: 25px;
+                padding: 5px;
+            }
+        </style>
+    </head>
+    <body>
+        <main>
+            <div class="header">
+                <H1 class="top">WYN</H1>
+                
+                <button class="btn"><a href="home.html" style="text-decoration:none; color: whitesmoke;">Home</a></button>
+                <button class="btn"><a href="aboutus.html" style="text-decoration:none; color: whitesmoke;">About</a></button>
+                <button class="btn"><a href="contact.html" style="text-decoration:none; color: whitesmoke;">Contact</a></button>
+            </div> 
+        </main>
+        <div class="about">
+            <article>
+                <h1><span style="color: orange;">About</span> Hotel BT</h1>
+                <P>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </P>
+            </article>
+            <aside>
+                <img src="./room.jpg">
+            </aside>
+        </div>
+        <div class="sample">
+            <div class="item1">
+                <img src="./jon.jpg" style="border-radius: 75%;" height="100px">
+            </div>
+            <div class="item2">
+                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and</p>
+            </div>
+        </div>
+        <div class="sample">
+            <div class="item1">
+                <img src="./clarke.jpeg" style="border-radius: 75%;" height="100px">
+            </div>
+            <div class="item2">
+                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and</p>
+            </div>
+        </div>
+        <footer>
+            <p>All rights reserved &copy; Hotel Wyvern</p>
+        </footer>
+    </body>
+</html>
